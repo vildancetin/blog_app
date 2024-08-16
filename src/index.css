@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+@layer components{
+    .brand {
+        @apply font-paytone font-light tracking-widest
+    }
+}

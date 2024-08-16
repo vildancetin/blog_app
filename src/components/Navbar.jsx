@@ -3,7 +3,7 @@ import logo from "../assets/bg-lifelog.png";
 import { NavLink } from "react-router-dom";
 import Switch from "./Switch";
 import { HiOutlinePencilSquare } from "react-icons/hi2";
-import { CiSearch } from "react-icons/ci";
+
 import Search from "./Search";
 
 const Navbar = () => {

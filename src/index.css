@@ -13,5 +13,8 @@
   .connections li {
     @apply text-2xl
   }
+  .carousel img {
+    @apply  w-full h-auto object-cover
+  }
 }
 

@@ -7,7 +7,7 @@ import { FaYoutube } from "react-icons/fa";
 import { FaPinterest } from "react-icons/fa";
 const Footer = () => {
   return (
-    <footer className="absolute bottom-0 w-full h-56 bg-black text-white ">
+    <footer className=" w-full h-56 bg-black text-white mt-6">
       <div className=" w-3/4 text-center mx-auto mt-3">
         <ul className="grid grid-cols-3 gap-3 justify-center tracking-widest text-lg headers">
           <li>

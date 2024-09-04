@@ -16,18 +16,18 @@ const Navbar = () => {
         </a>
       </div>
       {/* Middle side */}
-      <div className="flex justify-center items-center gap-4">
+      <div className="flex justify-center items-center gap-4 ml-4">
         <HiOutlinePencilSquare className="text-3xl" />
 
         <span className="text-xl border-r-2 border-gray  block h-8"></span>
         <NavLink to="/blogs/posts" className="text-lg">
           Articles
         </NavLink>
-        <span className="text-xl border-r-2 border-gray  block h-8"></span>
+        <span className="text-xl border-r-2 border-gray  block h-8 mr-2"></span>
         <Search />
       </div>
       {/* Right side */}
-      <div>
+      <div className="ml-4">
         <ul className="flex items-center justify-center gap-2 text-lg">
           <li>
             <NavLink to="/">Home</NavLink>

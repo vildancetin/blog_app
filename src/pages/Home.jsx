@@ -39,7 +39,7 @@ export default function Home() {
         </div>
       </div>
       {/* Picked Post */}
-      <div>
+      <div className="px-10">
         <PickedPost />
       </div>
       {/* Editör Pick Posts */}

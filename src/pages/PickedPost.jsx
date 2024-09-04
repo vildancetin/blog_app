@@ -2,7 +2,7 @@ import React from 'react'
 
 const PickedPost = () => {
   return (
-    <div className="w-full h-62 relative px-10">
+    <div className="w-full relative">
     <div className="text-white absolute flex flex-col justify-center items-center inset-0">
       <div className="px-4 py-2 rounded-2xl text-white bg-gray-400 bg-opacity-25 text-base font-semibold tracking-wider uppercase mb-6">
         category
